@@ -4,14 +4,15 @@
     <title>
         Grade Calculator
     </title>
+    <meta charset="UTF-8" />
 </head>
 <body>
 <form action="/calculator/calc" method="get">
     <div class="row">
-        <label for="en">continuous assessment grade</label> <input id="en" name="en" type="number decimal">
+        <label for="en">continuous assessment grade</label> <input step="0.1" id="en" name="en" type="number decimal">
     </div>
     <div class="row">
-        <label for="exam">final exam</label> <input id="exam" name="exam" type="number">
+        <label for="exam">final exam</label> <input step="0.1" id="exam" name="exam" type="number decimal">
     </div>
     <div class="row">
         <input type="submit">
